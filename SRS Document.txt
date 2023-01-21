@@ -1,0 +1,165 @@
+# Pick-Up And Drive
+
+## Document:
+System Requirement Specification Document
+
+## Title:
+System Reqruiement Spefication for Car Rental
+
+
+
+
+
+## Objective (Purpose):
+
+Faster Process – To make sure a user gets his desire car as early as possible; the car rental management system will provide a faster response to complete the process.
+
+Minimize paperwork – As all the system is computerized, there is no need to fill any application form for renting purpose. So, the paperwork will be very less.
+
+Centralized – All types of data and the activities related to the system will be kept in a single place so that it is easy to monitor the system and provide the customer the best service.
+
+
+
+
+
+
+
+## Scope:
+The main objective of the Car Rental System is to manage the details of Car,Payment,Customer,Supplier,Category. It manages all the information about Car, Booking,Bill. The project is totally built at administrative end and thus only the administrator is guaranteed the access
+
+
+
+
+
+## Definitions:
+	CRS: Car Rental System 
+	Portal: Peronalized Online Web Application
+	MIS: Management Information System
+	CRM: Customer Relation Managment
+	BI:  Business Intelligence
+	KPI:Key Perfomornace I
+	
+
+
+
+
+## Functional Requirements:	
+
+
+
+
+Admin:
+Admin is basically a superuser. Admin can add a car, manage booking cars, and rent. Admin will keep track of each booking. Manage organization representatives. Admin is responsible for any error in the system. So, he needs to alter at any point in time. Admin should keep tracking car renting service, maintenance of cars.
+
+
+
+User:
+The user is the end-user of our service. Users can view information of the available car, booking a car, easily get the car on rent, and also give feedback and an inquiry. User also views the discount and other information to get best deals
+
+
+
+
+
+
+
+
+## NonFunctional Requirement:
+Non-Functionality such as performance, security, or availability, usually specify or constrain characteristics of the system as a whole.
+
+Usability: The system provides a help and support menu in all interfaces for the user to interact with the system
+
+
+
+
+
+
+
+### Reliability
+The system will backup business data on regular basis and recover in short time duration to keep system operational
+Continous updates are matained , continous Adminstration is done to keep system operational.
+During peak hours system will maintain same user experaince by managing load balacning .
+
+
+
+
+
+
+
+
+
+### Maintainability:
+A Commercial database software will be used to maintain System data Persistence.
+A readymade Web Server will be installed to host online Car Rental System (Web Site) to management server capabilities.
+IT operations team will easily monitor and configure System using Adminstrative tools provided by Servers.
+.
+
+
+
+
+
+
+
+
+
+
+### Portablility:
+PDA: Portable Device Application
+System will provide portable User Interface ( HTML, CSS, JS) through  users will be able to access Car Rental System.
+
+
+
+
+
+
+
+
+### Accessibility:
+only registered customer will be able to place an order after authentication..
+Admin will be able to see their Car Rental System bill graph
+
+
+
+
+
+
+
+### Durability:
+System will retain customer  Car Rental System for 15 minutes  even though customer loose internet connection and join again.
+System will maintain wishlist for customer . customer  will be able to Book Car from wishlist and Rent.
+System will implement backup and recovery for retaining Car holders data, bussiness operation data and business data over time.
+
+
+
+
+
+
+### Efficiency:
+on Festival season, maximum number of users  will Rent Car, view Car.
+System will be able to manage all transactions with isolation.
+
+
+
+
+
+
+### Modularity:
+System will designed and developed using reusable, independent or dependent business senarios in the form of modules.
+These modules will be loosely coupled and highly cohesive.
+
+
+
+
+
+### Scalability:
+System will be able  to  provide  consistent user exeprience to Car Rental Customer as well as vistors irrespective of load.
+
+
+
+
+
+
+### Safety:	
+Car Rental System will be secure from malicious attack, fishing.
+Car Rental System functionalilites are protected from outside with prper firewall configuration.
+Bussiness data will be backed up periodically to ensure safty of data using increamental back up strategy.
+Role based security will be applied for Application data and operations accessibility.
